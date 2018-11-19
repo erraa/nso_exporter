@@ -1,0 +1,14 @@
+nso:
+  baseuri: https://srv-nso-1.int.comhem.com:8888/api
+  username: admin
+  password: admin
+  services:
+      - xyz
+      - xyz
+http:
+    ip: 127.0.0.1
+    port: 6969
+Log:
+    loglevel: debug
+
+

@@ -1,0 +1,11 @@
+[Unit]
+Description=NSO metric exporter for prometheus
+After=network.target
+
+[Service]
+Type=simple
+User=root
+ExecStart=/opt/nso_exporter/nso_exporter
+
+[Install]
+WantedBy=multi-user.target
